@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Its very less time consuming.
+     If there was no diff, then, it would have been a lot difficult to manage different versions of our files.
+     I mean I cannot read thousands of line of code and compare them manually.
+     That is not a good practice and not practical to do.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    If I made some changes to the file that was not correct, then I can change them or revert them according to the history only.
+    It can also help one to compare their progress on the work they are doing.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros:
+    Can commit according to the functionality, i.e. will commit whenever it is required and not something which is
+    scheduled.
+    Differentiating my commits according to the functionality changed.
+    My code wont get committed in the middle of making some changes because it was scheduled.
+
+    Cons:
+    I have to remember to make the commits.
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is more focussed towards code, and since files are interrelated to each other,
+    it allows to commit multiple files at once. As in change of code means functionality change and That
+    might needs to be updated at multiple locations. While on the other hand google docs is a rich editor
+    which was not developed specifically for code. Its a normal editor and i.e needs multiple commits.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log can be used to view the history of changes made with each commit showing a message for what changes
+    were made in that particular commit.
+    Git diff can be used to see what changes were made in 2 versions of the same file.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I can make changes more confidently now since i know i can move back and fix any issues if they got introduced
+    due to some changes made by me in any of the commits.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
