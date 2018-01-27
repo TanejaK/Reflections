@@ -4,6 +4,8 @@ run git init to the directory we wanted to work on.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+Staging area is an intermediated place where we can add our files and edit them. Git will
+then bundle up those files and make 1 commit for them. 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
